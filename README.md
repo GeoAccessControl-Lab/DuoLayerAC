@@ -189,6 +189,6 @@ python3 scripts/chapter05/prepare_system_comparison_plot_data.py --help
 ## 发表情况
 
 本仓库中的访问控制双层架构设计：IEEE Transactions on Consumer Electronics
-（TCE，新锐1区、TOP、JCR Q1），已发表。
+（TCE，新锐1区、TOP、JCR Q1），2026 年发表。
 
 本仓库用于匿名复现与学术核验，不在仓库地址或文档中标注个人身份信息。
