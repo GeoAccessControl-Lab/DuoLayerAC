@@ -1,0 +1,47 @@
+{
+  "schema": "polylock-compact-ring-security-profile-v4",
+  "profiles": {
+    "ring100": {
+      "purpose": "N=512 implementation comparison profile; profile name is not a concrete-security certification",
+      "ring": "Z_q[X]/(X^N+1)",
+      "ring_degree_N": 512,
+      "modulus_q": 12289,
+      "trapdoor_family": "Falcon-512 NTRU",
+      "root_embedding": "injective low-degree a+bX embedding in R_q",
+      "maximum_collision_free_legal_profiles": 151019520,
+      "maximum_roots_per_bucket": 4,
+      "decomposition_base": 32,
+      "decomposition_digits": 3,
+      "ciphertext_polynomials_per_bucket": 18,
+      "coefficient_bits": 14,
+      "error_distribution": "fixed-weight ternary",
+      "error_hamming_weight": 32,
+      "kem_seed_bits": 128,
+      "error_correction": "RS(64,16)",
+      "kdf": "HKDF-HMAC-SHA256",
+      "dem": "AES-256-GCM",
+      "security_scope": "post-quantum lattice-based candidate instantiation under the assumptions stated for PolyLock; no exact bit-security claim"
+    },
+    "ring128": {
+      "purpose": "N=1024 thesis implementation profile; profile name is not a concrete-security certification",
+      "ring": "Z_q[X]/(X^N+1)",
+      "ring_degree_N": 1024,
+      "modulus_q": 12289,
+      "trapdoor_family": "Falcon-1024 NTRU",
+      "root_embedding": "injective low-degree a+bX embedding in R_q",
+      "maximum_collision_free_legal_profiles": 151019520,
+      "maximum_roots_per_bucket": 4,
+      "decomposition_base": 32,
+      "decomposition_digits": 3,
+      "ciphertext_polynomials_per_bucket": 18,
+      "coefficient_bits": 14,
+      "error_distribution": "fixed-weight ternary",
+      "error_hamming_weight": 32,
+      "kem_seed_bits": 128,
+      "error_correction": "RS(128,16)",
+      "kdf": "HKDF-HMAC-SHA256",
+      "dem": "AES-256-GCM",
+      "security_scope": "post-quantum lattice-based candidate instantiation under the stated NTRU/Ring-LWE-style, KDF and AEAD assumptions; no exact bit-security claim"
+    }
+  }
+}

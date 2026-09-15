@@ -1,0 +1,42 @@
+# Go/Rust build products
+**/target/
+**/vendor/
+*.a
+*.so
+*.o
+*.out
+*.test
+zk-Guard-chaincode/acmc
+zk-Guard-client/ipfs-data/ipfs
+zk-Guard-client/ipfs-data/*/systemInit
+zk-Guard-client/ipfs-data/*/dataStorage
+zk-Guard-client/ipfs-data/*/dataRetrieve
+zk-Guard-client/ipfs-data/*/dataDecrypt
+zk-Guard-client/ipfs-data/*/policyUpdate
+zk-Guard-client/ipfs-data/*/attributeUpdate
+zk-Guard-client/ipfs-data/*/zkguardResourceBench
+
+# Runtime state, keys and proofs
+zk-Guard-client/ipfs-data/cmd/
+**/polylock_state/
+**/proof_exchange/
+*.pem
+*.key
+*.b64
+*.gob
+*.gob.meta
+
+# Experiment outputs
+*_results/
+results/
+output/
+*.csv
+*.tsv
+*.log
+
+# Caches and editor files
+__pycache__/
+*.py[cod]
+.DS_Store
+.vscode/
+.idea/

@@ -1,0 +1,897 @@
+{
+  "conditions": {
+    "type": "AND",
+    "children": [
+      {
+        "type": "AND",
+        "children": [
+          {
+            "type": "AND",
+            "children": [
+              {
+                "type": "OR",
+                "children": [
+                  {
+                    "type": "AND",
+                    "children": [
+                      {
+                        "type": "ATTR",
+                        "attribute": "attr9"
+                      },
+                      {
+                        "type": "ATTR",
+                        "attribute": "attr75"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "OR",
+                    "children": [
+                      {
+                        "type": "ATTR",
+                        "attribute": "attr69"
+                      },
+                      {
+                        "type": "ATTR",
+                        "attribute": "attr24"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "ATTR",
+                "attribute": "attr67"
+              }
+            ]
+          },
+          {
+            "type": "AND",
+            "children": [
+              {
+                "type": "OR",
+                "children": [
+                  {
+                    "type": "ATTR",
+                    "attribute": "attr7"
+                  },
+                  {
+                    "type": "AND",
+                    "children": [
+                      {
+                        "type": "ATTR",
+                        "attribute": "attr55"
+                      },
+                      {
+                        "type": "ATTR",
+                        "attribute": "attr39"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "ATTR",
+                "attribute": "attr88"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "OR",
+        "children": [
+          {
+            "type": "OR",
+            "children": [
+              {
+                "type": "OR",
+                "children": [
+                  {
+                    "type": "AND",
+                    "children": [
+                      {
+                        "type": "OR",
+                        "children": [
+                          {
+                            "type": "OR",
+                            "children": [
+                              {
+                                "type": "OR",
+                                "children": [
+                                  {
+                                    "type": "OR",
+                                    "children": [
+                                      {
+                                        "type": "OR",
+                                        "children": [
+                                          {
+                                            "type": "AND",
+                                            "children": [
+                                              {
+                                                "type": "ATTR",
+                                                "attribute": "attr47"
+                                              },
+                                              {
+                                                "type": "AND",
+                                                "children": [
+                                                  {
+                                                    "type": "ATTR",
+                                                    "attribute": "attr96"
+                                                  },
+                                                  {
+                                                    "type": "ATTR",
+                                                    "attribute": "attr10"
+                                                  }
+                                                ]
+                                              }
+                                            ]
+                                          },
+                                          {
+                                            "type": "OR",
+                                            "children": [
+                                              {
+                                                "type": "OR",
+                                                "children": [
+                                                  {
+                                                    "type": "ATTR",
+                                                    "attribute": "attr25"
+                                                  },
+                                                  {
+                                                    "type": "ATTR",
+                                                    "attribute": "attr57"
+                                                  }
+                                                ]
+                                              },
+                                              {
+                                                "type": "OR",
+                                                "children": [
+                                                  {
+                                                    "type": "ATTR",
+                                                    "attribute": "attr58"
+                                                  },
+                                                  {
+                                                    "type": "ATTR",
+                                                    "attribute": "attr20"
+                                                  }
+                                                ]
+                                              }
+                                            ]
+                                          }
+                                        ]
+                                      },
+                                      {
+                                        "type": "ATTR",
+                                        "attribute": "attr18"
+                                      }
+                                    ]
+                                  },
+                                  {
+                                    "type": "AND",
+                                    "children": [
+                                      {
+                                        "type": "OR",
+                                        "children": [
+                                          {
+                                            "type": "OR",
+                                            "children": [
+                                              {
+                                                "type": "OR",
+                                                "children": [
+                                                  {
+                                                    "type": "ATTR",
+                                                    "attribute": "attr78"
+                                                  },
+                                                  {
+                                                    "type": "ATTR",
+                                                    "attribute": "attr100"
+                                                  }
+                                                ]
+                                              },
+                                              {
+                                                "type": "ATTR",
+                                                "attribute": "attr95"
+                                              }
+                                            ]
+                                          },
+                                          {
+                                            "type": "AND",
+                                            "children": [
+                                              {
+                                                "type": "AND",
+                                                "children": [
+                                                  {
+                                                    "type": "OR",
+                                                    "children": [
+                                                      {
+                                                        "type": "ATTR",
+                                                        "attribute": "attr90"
+                                                      },
+                                                      {
+                                                        "type": "ATTR",
+                                                        "attribute": "attr86"
+                                                      }
+                                                    ]
+                                                  },
+                                                  {
+                                                    "type": "ATTR",
+                                                    "attribute": "attr21"
+                                                  }
+                                                ]
+                                              },
+                                              {
+                                                "type": "AND",
+                                                "children": [
+                                                  {
+                                                    "type": "ATTR",
+                                                    "attribute": "attr42"
+                                                  },
+                                                  {
+                                                    "type": "ATTR",
+                                                    "attribute": "attr4"
+                                                  }
+                                                ]
+                                              }
+                                            ]
+                                          }
+                                        ]
+                                      },
+                                      {
+                                        "type": "ATTR",
+                                        "attribute": "attr32"
+                                      }
+                                    ]
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "OR",
+                                "children": [
+                                  {
+                                    "type": "ATTR",
+                                    "attribute": "attr3"
+                                  },
+                                  {
+                                    "type": "ATTR",
+                                    "attribute": "attr31"
+                                  }
+                                ]
+                              }
+                            ]
+                          },
+                          {
+                            "type": "AND",
+                            "children": [
+                              {
+                                "type": "OR",
+                                "children": [
+                                  {
+                                    "type": "ATTR",
+                                    "attribute": "attr26"
+                                  },
+                                  {
+                                    "type": "AND",
+                                    "children": [
+                                      {
+                                        "type": "OR",
+                                        "children": [
+                                          {
+                                            "type": "ATTR",
+                                            "attribute": "attr70"
+                                          },
+                                          {
+                                            "type": "ATTR",
+                                            "attribute": "attr59"
+                                          }
+                                        ]
+                                      },
+                                      {
+                                        "type": "ATTR",
+                                        "attribute": "attr56"
+                                      }
+                                    ]
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "OR",
+                                "children": [
+                                  {
+                                    "type": "ATTR",
+                                    "attribute": "attr35"
+                                  },
+                                  {
+                                    "type": "ATTR",
+                                    "attribute": "attr38"
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "type": "OR",
+                        "children": [
+                          {
+                            "type": "OR",
+                            "children": [
+                              {
+                                "type": "OR",
+                                "children": [
+                                  {
+                                    "type": "ATTR",
+                                    "attribute": "attr11"
+                                  },
+                                  {
+                                    "type": "OR",
+                                    "children": [
+                                      {
+                                        "type": "OR",
+                                        "children": [
+                                          {
+                                            "type": "ATTR",
+                                            "attribute": "attr29"
+                                          },
+                                          {
+                                            "type": "ATTR",
+                                            "attribute": "attr80"
+                                          }
+                                        ]
+                                      },
+                                      {
+                                        "type": "ATTR",
+                                        "attribute": "attr65"
+                                      }
+                                    ]
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "ATTR",
+                                "attribute": "attr54"
+                              }
+                            ]
+                          },
+                          {
+                            "type": "AND",
+                            "children": [
+                              {
+                                "type": "OR",
+                                "children": [
+                                  {
+                                    "type": "AND",
+                                    "children": [
+                                      {
+                                        "type": "ATTR",
+                                        "attribute": "attr87"
+                                      },
+                                      {
+                                        "type": "AND",
+                                        "children": [
+                                          {
+                                            "type": "ATTR",
+                                            "attribute": "attr16"
+                                          },
+                                          {
+                                            "type": "ATTR",
+                                            "attribute": "attr52"
+                                          }
+                                        ]
+                                      }
+                                    ]
+                                  },
+                                  {
+                                    "type": "OR",
+                                    "children": [
+                                      {
+                                        "type": "ATTR",
+                                        "attribute": "attr50"
+                                      },
+                                      {
+                                        "type": "OR",
+                                        "children": [
+                                          {
+                                            "type": "ATTR",
+                                            "attribute": "attr12"
+                                          },
+                                          {
+                                            "type": "ATTR",
+                                            "attribute": "attr98"
+                                          }
+                                        ]
+                                      }
+                                    ]
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "OR",
+                                "children": [
+                                  {
+                                    "type": "OR",
+                                    "children": [
+                                      {
+                                        "type": "ATTR",
+                                        "attribute": "attr5"
+                                      },
+                                      {
+                                        "type": "ATTR",
+                                        "attribute": "attr34"
+                                      }
+                                    ]
+                                  },
+                                  {
+                                    "type": "AND",
+                                    "children": [
+                                      {
+                                        "type": "ATTR",
+                                        "attribute": "attr94"
+                                      },
+                                      {
+                                        "type": "ATTR",
+                                        "attribute": "attr44"
+                                      }
+                                    ]
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "OR",
+                    "children": [
+                      {
+                        "type": "OR",
+                        "children": [
+                          {
+                            "type": "OR",
+                            "children": [
+                              {
+                                "type": "AND",
+                                "children": [
+                                  {
+                                    "type": "OR",
+                                    "children": [
+                                      {
+                                        "type": "ATTR",
+                                        "attribute": "attr77"
+                                      },
+                                      {
+                                        "type": "OR",
+                                        "children": [
+                                          {
+                                            "type": "AND",
+                                            "children": [
+                                              {
+                                                "type": "ATTR",
+                                                "attribute": "attr89"
+                                              },
+                                              {
+                                                "type": "AND",
+                                                "children": [
+                                                  {
+                                                    "type": "ATTR",
+                                                    "attribute": "attr30"
+                                                  },
+                                                  {
+                                                    "type": "ATTR",
+                                                    "attribute": "attr23"
+                                                  }
+                                                ]
+                                              }
+                                            ]
+                                          },
+                                          {
+                                            "type": "ATTR",
+                                            "attribute": "attr60"
+                                          }
+                                        ]
+                                      }
+                                    ]
+                                  },
+                                  {
+                                    "type": "OR",
+                                    "children": [
+                                      {
+                                        "type": "OR",
+                                        "children": [
+                                          {
+                                            "type": "ATTR",
+                                            "attribute": "attr51"
+                                          },
+                                          {
+                                            "type": "ATTR",
+                                            "attribute": "attr43"
+                                          }
+                                        ]
+                                      },
+                                      {
+                                        "type": "OR",
+                                        "children": [
+                                          {
+                                            "type": "ATTR",
+                                            "attribute": "attr17"
+                                          },
+                                          {
+                                            "type": "OR",
+                                            "children": [
+                                              {
+                                                "type": "ATTR",
+                                                "attribute": "attr79"
+                                              },
+                                              {
+                                                "type": "ATTR",
+                                                "attribute": "attr81"
+                                              }
+                                            ]
+                                          }
+                                        ]
+                                      }
+                                    ]
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "ATTR",
+                                "attribute": "attr83"
+                              }
+                            ]
+                          },
+                          {
+                            "type": "AND",
+                            "children": [
+                              {
+                                "type": "ATTR",
+                                "attribute": "attr33"
+                              },
+                              {
+                                "type": "OR",
+                                "children": [
+                                  {
+                                    "type": "AND",
+                                    "children": [
+                                      {
+                                        "type": "AND",
+                                        "children": [
+                                          {
+                                            "type": "ATTR",
+                                            "attribute": "attr72"
+                                          },
+                                          {
+                                            "type": "ATTR",
+                                            "attribute": "attr2"
+                                          }
+                                        ]
+                                      },
+                                      {
+                                        "type": "AND",
+                                        "children": [
+                                          {
+                                            "type": "OR",
+                                            "children": [
+                                              {
+                                                "type": "ATTR",
+                                                "attribute": "attr27"
+                                              },
+                                              {
+                                                "type": "ATTR",
+                                                "attribute": "attr53"
+                                              }
+                                            ]
+                                          },
+                                          {
+                                            "type": "ATTR",
+                                            "attribute": "attr99"
+                                          }
+                                        ]
+                                      }
+                                    ]
+                                  },
+                                  {
+                                    "type": "AND",
+                                    "children": [
+                                      {
+                                        "type": "ATTR",
+                                        "attribute": "attr48"
+                                      },
+                                      {
+                                        "type": "ATTR",
+                                        "attribute": "attr40"
+                                      }
+                                    ]
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "type": "OR",
+                        "children": [
+                          {
+                            "type": "ATTR",
+                            "attribute": "attr15"
+                          },
+                          {
+                            "type": "ATTR",
+                            "attribute": "attr93"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "OR",
+                "children": [
+                  {
+                    "type": "AND",
+                    "children": [
+                      {
+                        "type": "ATTR",
+                        "attribute": "attr85"
+                      },
+                      {
+                        "type": "ATTR",
+                        "attribute": "attr71"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "AND",
+                    "children": [
+                      {
+                        "type": "AND",
+                        "children": [
+                          {
+                            "type": "AND",
+                            "children": [
+                              {
+                                "type": "AND",
+                                "children": [
+                                  {
+                                    "type": "AND",
+                                    "children": [
+                                      {
+                                        "type": "ATTR",
+                                        "attribute": "attr37"
+                                      },
+                                      {
+                                        "type": "OR",
+                                        "children": [
+                                          {
+                                            "type": "ATTR",
+                                            "attribute": "attr13"
+                                          },
+                                          {
+                                            "type": "ATTR",
+                                            "attribute": "attr82"
+                                          }
+                                        ]
+                                      }
+                                    ]
+                                  },
+                                  {
+                                    "type": "ATTR",
+                                    "attribute": "attr49"
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "ATTR",
+                                "attribute": "attr6"
+                              }
+                            ]
+                          },
+                          {
+                            "type": "AND",
+                            "children": [
+                              {
+                                "type": "OR",
+                                "children": [
+                                  {
+                                    "type": "ATTR",
+                                    "attribute": "attr68"
+                                  },
+                                  {
+                                    "type": "AND",
+                                    "children": [
+                                      {
+                                        "type": "AND",
+                                        "children": [
+                                          {
+                                            "type": "ATTR",
+                                            "attribute": "attr73"
+                                          },
+                                          {
+                                            "type": "ATTR",
+                                            "attribute": "attr41"
+                                          }
+                                        ]
+                                      },
+                                      {
+                                        "type": "ATTR",
+                                        "attribute": "attr62"
+                                      }
+                                    ]
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "OR",
+                                "children": [
+                                  {
+                                    "type": "OR",
+                                    "children": [
+                                      {
+                                        "type": "ATTR",
+                                        "attribute": "attr22"
+                                      },
+                                      {
+                                        "type": "ATTR",
+                                        "attribute": "attr74"
+                                      }
+                                    ]
+                                  },
+                                  {
+                                    "type": "ATTR",
+                                    "attribute": "attr63"
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "type": "AND",
+                        "children": [
+                          {
+                            "type": "OR",
+                            "children": [
+                              {
+                                "type": "ATTR",
+                                "attribute": "attr91"
+                              },
+                              {
+                                "type": "OR",
+                                "children": [
+                                  {
+                                    "type": "ATTR",
+                                    "attribute": "attr28"
+                                  },
+                                  {
+                                    "type": "ATTR",
+                                    "attribute": "attr61"
+                                  }
+                                ]
+                              }
+                            ]
+                          },
+                          {
+                            "type": "OR",
+                            "children": [
+                              {
+                                "type": "OR",
+                                "children": [
+                                  {
+                                    "type": "OR",
+                                    "children": [
+                                      {
+                                        "type": "ATTR",
+                                        "attribute": "attr46"
+                                      },
+                                      {
+                                        "type": "OR",
+                                        "children": [
+                                          {
+                                            "type": "ATTR",
+                                            "attribute": "attr64"
+                                          },
+                                          {
+                                            "type": "ATTR",
+                                            "attribute": "attr76"
+                                          }
+                                        ]
+                                      }
+                                    ]
+                                  },
+                                  {
+                                    "type": "AND",
+                                    "children": [
+                                      {
+                                        "type": "OR",
+                                        "children": [
+                                          {
+                                            "type": "ATTR",
+                                            "attribute": "attr8"
+                                          },
+                                          {
+                                            "type": "OR",
+                                            "children": [
+                                              {
+                                                "type": "ATTR",
+                                                "attribute": "attr45"
+                                              },
+                                              {
+                                                "type": "ATTR",
+                                                "attribute": "attr19"
+                                              }
+                                            ]
+                                          }
+                                        ]
+                                      },
+                                      {
+                                        "type": "ATTR",
+                                        "attribute": "attr36"
+                                      }
+                                    ]
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "OR",
+                                "children": [
+                                  {
+                                    "type": "ATTR",
+                                    "attribute": "attr97"
+                                  },
+                                  {
+                                    "type": "OR",
+                                    "children": [
+                                      {
+                                        "type": "ATTR",
+                                        "attribute": "attr1"
+                                      },
+                                      {
+                                        "type": "AND",
+                                        "children": [
+                                          {
+                                            "type": "ATTR",
+                                            "attribute": "attr92"
+                                          },
+                                          {
+                                            "type": "ATTR",
+                                            "attribute": "attr66"
+                                          }
+                                        ]
+                                      }
+                                    ]
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "AND",
+            "children": [
+              {
+                "type": "ATTR",
+                "attribute": "attr14"
+              },
+              {
+                "type": "ATTR",
+                "attribute": "attr84"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}
