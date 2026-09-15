@@ -6,18 +6,18 @@
 *.o
 *.out
 *.test
-zk-Guard-chaincode/acmc
-zk-Guard-client/ipfs-data/ipfs
-zk-Guard-client/ipfs-data/*/systemInit
-zk-Guard-client/ipfs-data/*/dataStorage
-zk-Guard-client/ipfs-data/*/dataRetrieve
-zk-Guard-client/ipfs-data/*/dataDecrypt
-zk-Guard-client/ipfs-data/*/policyUpdate
-zk-Guard-client/ipfs-data/*/attributeUpdate
-zk-Guard-client/ipfs-data/*/zkguardResourceBench
+DuoLayer-chaincode/acmc
+DuoLayer-client/ipfs-data/ipfs
+DuoLayer-client/ipfs-data/*/systemInit
+DuoLayer-client/ipfs-data/*/dataStorage
+DuoLayer-client/ipfs-data/*/dataRetrieve
+DuoLayer-client/ipfs-data/*/dataDecrypt
+DuoLayer-client/ipfs-data/*/policyUpdate
+DuoLayer-client/ipfs-data/*/attributeUpdate
+DuoLayer-client/ipfs-data/*/zkguardResourceBench
 
 # Runtime state, keys and proofs
-zk-Guard-client/ipfs-data/cmd/
+DuoLayer-client/ipfs-data/cmd/
 **/polylock_state/
 **/proof_exchange/
 *.pem
