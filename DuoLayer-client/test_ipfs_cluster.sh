@@ -132,8 +132,8 @@ SUMMARY_POLICY_DELTA_ADD="NA"
 SUMMARY_POLICY_DELTA_RM="NA"
 ATTRIBUTE_UPDATE_TOTAL_MS="NA"
 
-HOST_CLIENT_DIR="/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/test-network/zk-Guard-client/ipfs-data"
-CMD_DIR="/opt/gopath/src/github.com/hyperledger/fabric/peer/zk-Guard-client/ipfs-data/cmd"
+HOST_CLIENT_DIR="/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/test-network/DuoLayer-client/ipfs-data"
+CMD_DIR="/opt/gopath/src/github.com/hyperledger/fabric/peer/DuoLayer-client/ipfs-data/cmd"
 
 ALICE="ipfs-Alice"
 EVE="ipfs-Eve"

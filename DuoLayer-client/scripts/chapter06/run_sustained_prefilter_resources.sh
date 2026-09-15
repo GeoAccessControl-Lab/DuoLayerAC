@@ -11,7 +11,7 @@ BASELINE_SECONDS=5
 METHODS=all
 OUTPUT_DIR="$ROOT_DIR/experiments/results/chapter06/sustained_prefilter_resources"
 CONTAINER=ipfs-Alice
-CMD_DIR=/opt/gopath/src/github.com/hyperledger/fabric/peer/zk-Guard-client/ipfs-data/cmd
+CMD_DIR=/opt/gopath/src/github.com/hyperledger/fabric/peer/DuoLayer-client/ipfs-data/cmd
 
 while [ "$#" -gt 0 ]; do
   case "$1" in

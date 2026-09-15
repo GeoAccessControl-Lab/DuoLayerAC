@@ -3,7 +3,7 @@
 set -Eeuo pipefail
 
 CONTAINER="${CONTAINER:-ipfs-Alice}"
-CMD_DIR="${CMD_DIR:-/opt/gopath/src/github.com/hyperledger/fabric/peer/zk-Guard-client/ipfs-data/cmd}"
+CMD_DIR="${CMD_DIR:-/opt/gopath/src/github.com/hyperledger/fabric/peer/DuoLayer-client/ipfs-data/cmd}"
 RUNS="${RUNS:-20}"
 WARMUP_RUNS="${WARMUP_RUNS:-5}"
 

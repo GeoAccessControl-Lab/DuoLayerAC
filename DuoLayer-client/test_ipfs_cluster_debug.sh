@@ -84,8 +84,8 @@ SUMMARY_LARGE_NEW_ONLY_BYTES="0"
 # 1) Compile zk-Guard client tools
 # ============================================================
 
-HOST_CLIENT_DIR="/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/test-network/zk-Guard-client/ipfs-data"
-CMD_DIR="/opt/gopath/src/github.com/hyperledger/fabric/peer/zk-Guard-client/ipfs-data/cmd"
+HOST_CLIENT_DIR="/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/test-network/DuoLayer-client/ipfs-data"
+CMD_DIR="/opt/gopath/src/github.com/hyperledger/fabric/peer/DuoLayer-client/ipfs-data/cmd"
 
 cd "$HOST_CLIENT_DIR"
 make clean

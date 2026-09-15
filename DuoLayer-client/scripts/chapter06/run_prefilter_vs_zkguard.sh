@@ -8,7 +8,7 @@ WARMUP_RUNS=30
 OUTPUT_DIR="$ROOT_DIR/experiments/results/chapter06/prefilter_vs_zkguard"
 CONTAINER="ipfs-Alice"
 REQUESTER="ipfs-Eve"
-CMD_DIR="/opt/gopath/src/github.com/hyperledger/fabric/peer/zk-Guard-client/ipfs-data/cmd"
+CMD_DIR="/opt/gopath/src/github.com/hyperledger/fabric/peer/DuoLayer-client/ipfs-data/cmd"
 
 while [ "$#" -gt 0 ]; do
   case "$1" in

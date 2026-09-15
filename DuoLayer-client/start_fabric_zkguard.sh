@@ -35,12 +35,12 @@ if ! awk -v sigma="$SIGMA" 'BEGIN { exit !(sigma > 0.0 && sigma <= 1.0) }'; then
     exit 2
 fi
 
-SYSTEMINIT_FILE="/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/test-network/zk-Guard-client/ipfs-data/systemInit/main.go"
-DATARETRIEVE_FILE="/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/test-network/zk-Guard-client/ipfs-data/dataRetrieve/main.go"
-DATASTORAGE_FILE="/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/test-network/zk-Guard-client/ipfs-data/dataStorage/main.go"
-UPDATEPOLICY_FILE="/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/test-network/zk-Guard-client/ipfs-data/policyUpdate/main.go"
-ATTRIBUTEUPDATE_FILE="/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/test-network/zk-Guard-client/ipfs-data/attributeUpdate/main.go"
-CHAINCODE="/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/test-network/zk-Guard-chaincode/main.go"
+SYSTEMINIT_FILE="/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/test-network/DuoLayer-client/ipfs-data/systemInit/main.go"
+DATARETRIEVE_FILE="/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/test-network/DuoLayer-client/ipfs-data/dataRetrieve/main.go"
+DATASTORAGE_FILE="/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/test-network/DuoLayer-client/ipfs-data/dataStorage/main.go"
+UPDATEPOLICY_FILE="/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/test-network/DuoLayer-client/ipfs-data/policyUpdate/main.go"
+ATTRIBUTEUPDATE_FILE="/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/test-network/DuoLayer-client/ipfs-data/attributeUpdate/main.go"
+CHAINCODE="/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/test-network/DuoLayer-chaincode/main.go"
 
 cd /root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/test-network || exit 1
 
@@ -184,7 +184,7 @@ if [ "$MODE" = "up" ]; then
     # 2.3 部署链码
     # --------------------------------------------------------------------------
     echo "部署链码 acmc 到通道 mychannel..."
-    if ! ./network.sh deployCC -c mychannel -ccn acmc -ccp ./zk-Guard-chaincode -ccl go; then
+    if ! ./network.sh deployCC -c mychannel -ccn acmc -ccp ./DuoLayer-chaincode -ccl go; then
         echo "Error: network.sh deployCC 失败" >&2
         exit 1
     fi

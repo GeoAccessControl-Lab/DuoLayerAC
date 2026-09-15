@@ -4,7 +4,7 @@ set -Eeuo pipefail
 
 CONTAINER="${CONTAINER:-ipfs-Alice}"
 REQUESTER="${REQUESTER:-ipfs-Eve}"
-CMD_DIR="${CMD_DIR:-/opt/gopath/src/github.com/hyperledger/fabric/peer/zk-Guard-client/ipfs-data/cmd}"
+CMD_DIR="${CMD_DIR:-/opt/gopath/src/github.com/hyperledger/fabric/peer/DuoLayer-client/ipfs-data/cmd}"
 PROOF_DIR="$CMD_DIR/proof_exchange"
 
 if ! docker inspect "$CONTAINER" >/dev/null 2>&1; then

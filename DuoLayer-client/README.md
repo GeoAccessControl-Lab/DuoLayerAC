@@ -1,6 +1,6 @@
 # Chapter 5 experiment pipeline
 
-All sweep runners are located in the `zk-Guard-client` root.  Every measured
+All sweep runners are located in the `DuoLayer-client` root.  Every measured
 observation independently performs `down -> parameter rewrite -> Fabric up and
 chaincode deployment -> end-to-end test`.  Consequently, observations with
 different `AttrNum` never reuse a chaincode or client binary compiled for a

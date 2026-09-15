@@ -3,7 +3,7 @@
 set -Eeuo pipefail
 
 CHAPTER6_ROOT="${CHAPTER6_ROOT:-/root/BFR_Policy_Update_RS_DNN_ENGINEERING}"
-CLIENT_ROOT="${CLIENT_ROOT:-/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/test-network/zk-Guard-client}"
+CLIENT_ROOT="${CLIENT_ROOT:-/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/test-network/DuoLayer-client}"
 PYTHON_ENV="${PYTHON_ENV:-/usr/anaconda3/envs/pytorch_gpu/bin/python}"
 GO_BIN="${GO_BIN:-/usr/local/go/bin/go}"
 EXPORT_ROOT="$CHAPTER6_ROOT/deployment/rs_detector"
